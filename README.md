@@ -41,7 +41,7 @@ $redirect->run();
 | Option   | Values         | Description                                                             |
 -----------|----------------|-------------------------------------------------------------------------|
 | platform | iOS, androidos | The platform being targeted. A path is required, message is *optional*. |
-| deplay   | 0 - ?          | Number of seconds to deplay redirect. *optional*                        |
+| deplay   | 0 - ?          | Number of seconds to delay redirect. *optional*                         |
 | fallback | path           | A fallback path should a platform not be matched. *optional*            |
 
 **Note:** Other platforms are likely supported. Under the hood this uses [Mobile Detect](https://github.com/serbanghita/Mobile-Detect) to determine the platform being used. I've only tested iOS and Android so far and can only vouch for those.
