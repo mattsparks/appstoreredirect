@@ -1,0 +1,20 @@
+{
+    "name": "mattsparks/appstoreredirect",
+    "description": "Redirect your users to your app in the appropriate app store.",
+    "keywords": ["app", "app store", "apple app store", "google play store", "android", "iOS", "redirect"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Sparks",
+            "email": "matt@sparkscoding.com"
+        }
+    ],
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+          "AppStoreRedirect\\": "src"
+        }
+    }
+}
