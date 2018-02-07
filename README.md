@@ -39,7 +39,7 @@ $redirect->run();
 ## Configuration
 
 | Option   | Values         | Description                                                             |
--------------------------------------------------------------------------------------------------------
+-----------|----------------|-------------------------------------------------------------------------|
 | platform | iOS, androidos | The platform being targeted. A path is required, message is *optional*. |
 | deplay   | 0 - ?          | Number of seconds to deplay redirect. *optional*                        |
 | fallback | path           | A fallback path should a platform not be matched. *optional*            |
